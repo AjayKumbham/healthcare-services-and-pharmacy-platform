@@ -4,17 +4,44 @@
 
 ## Table of Contents
 1. Overview
-2. High-Level Architecture
-3. Layer Breakdown
-    - 3.1 Frontend
-    - 3.2 Backend
-    - 3.3 Database
-4. Data Flow Examples
-    - 4.1 User Registration
-    - 4.2 Order Placement
-5. Security & Compliance
-6. Scalability & Extensibility
-7. Design Principles & Best Practices
+2. Architecture Diagram
+3. High-Level Architecture
+4. Layer Breakdown
+    - 4.1 Frontend
+    - 4.2 Backend
+    - 4.3 Database
+5. Data Flow Examples
+    - 5.1 User Registration
+    - 5.2 Order Placement
+6. Security & Compliance
+7. Scalability & Extensibility
+8. Design Principles & Best Practices
+
+---
+
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    A["User Browser<br/>(Web/Mobile App)"]
+    B["Frontend<br/>(React, Vite, Tailwind CSS)"]
+    C["Backend<br/>(Java, Spring Boot)"]
+    D["Database<br/>(MySQL/PostgreSQL)"]
+    E["3rd Party APIs<br/>(Twilio, Email, Payment, etc.)"]
+
+    A -- "HTTPS / REST API" --> B
+    B -- "HTTPS / REST API" --> C
+    C -- "JDBC / ORM" --> D
+    C -- "API Calls" --> E
+
+    B -. "User Registration, Login, Orders, etc." .-> C
+    C -. "Business Logic, Validation, Security" .-> D
+    C -. "Notifications, Payments" .-> E
+
+    B -- "JWT Token" --> C
+    C -- "Role-based Auth" --> D
+    B -. "Admin/Pharmacy Dashboards" .-> C
+```
 
 ---
 
