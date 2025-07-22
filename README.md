@@ -7,65 +7,30 @@
 
 ---
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Quick Start](#quick-start)
-3. [Features](#features)
-4. [Tech Stack](#tech-stack)
-5. [Architecture](#architecture)
-6. [Documentation Index](#documentation-index)
-7. [Project Credits](#project-credits)
-8. [License](#license)
-
----
-
 ## Overview
-**Price A Med** is a comprehensive, enterprise-grade platform for healthcare services, pharmacy management, and prescription handling. Developed as a team project for Evernorth Health Services as part of a case study, this product is designed to meet real-world healthcare and pharmacy needs with a robust, modular, and secure architecture.
+**Price A Med** is a modern, enterprise-grade platform for healthcare services and pharmacy management. Built as a team project for Evernorth Health Services, it delivers a seamless experience for patients, pharmacies, and administrators—combining robust security, modular architecture, and a user-centric design.
+
+This platform enables:
+- Secure user onboarding and authentication
+- Comprehensive pharmacy and inventory management
+- End-to-end prescription handling and order processing
+- Membership plans, health dashboards, and real-time support
+- Scalable, API-driven architecture ready for real-world deployment
 
 ---
 
-## Quick Start
-- **Explore the Docs:**
-  - See [Features](docs/FEATURES.md) for a detailed breakdown of what the platform offers.
-  - Review [ARCHITECTURE.md](docs/ARCHITECTURE.md) for a high-level system overview.
-  - Dive into [API_REFERENCE.md](docs/API_REFERENCE.md) for every API endpoint, request/response, and error code.
-  - Understand the [Data Model](docs/DATA_MODEL.md) for all entities and relationships.
-  - Browse [UI_OVERVIEW.md](docs/UI_OVERVIEW.md) for user journeys and interface structure.
-- **Run Locally:**
-  - Clone the repo, install dependencies in `/frontend` and `/backend`, and follow the setup instructions in each directory.
-  - (See each subdirectory's README or documentation for environment variables and configuration.)
+## Product Highlights
+- **All-in-one healthcare and pharmacy management**
+- **Role-based access** for patients, pharmacies, and admins
+- **Modern UI/UX** with responsive design and chatbot support
+- **Enterprise security** and compliance best practices
+- **Extensive documentation** for features, architecture, API, data model, and UI
 
 ---
 
-## Features
-- User authentication (OTP, membership ID, JWT)
-- Pharmacy and inventory management
-- Prescription upload and parsing
-- Cart and order management
-- Health dashboard (conditions, allergies, medications)
-- Admin panel for consumer/store/inventory management
-- Membership plans and discounts
-- 24/7 support and chatbot
-- Secure, role-based access
-- Email/SMS notifications
-- Modular, scalable codebase
+## Explore the Platform
+All technical, setup, and developer details are available in our comprehensive documentation:
 
----
-
-## Tech Stack
-- **Frontend:** React, Tailwind CSS, Vite
-- **Backend:** Java, Spring Boot, JPA/Hibernate
-- **Database:** (e.g., MySQL/PostgreSQL)
-- **Other:** JWT, Email/SMS integration
-
----
-
-## Architecture
-A modular, layered architecture separates concerns between frontend, backend, and data storage. The backend exposes RESTful APIs, enforces security, and manages business logic, while the frontend provides a modern, responsive user interface. For a detailed architecture diagram and explanation, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
-
----
-
-## Documentation Index
 - [Features](docs/FEATURES.md)
 - [System Architecture](docs/ARCHITECTURE.md)
 - [API Reference (All Endpoints)](docs/API_REFERENCE.md)
