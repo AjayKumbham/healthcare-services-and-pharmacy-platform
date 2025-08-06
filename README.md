@@ -1,11 +1,13 @@
 # Price A Med – Healthcare Services & Pharmacy Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status: Production](https://img.shields.io/badge/status-production-brightgreen)]()
 [![Java](https://img.shields.io/badge/backend-Java%20%7C%20Spring%20Boot-blue)]()
 [![React](https://img.shields.io/badge/frontend-React%20%7C%20Tailwind%20CSS-blueviolet)]()
 
 ---
+### 📄 Documentation  
+You can view the complete API and platform documentation here:  
+👉 [https://ajaykumbham.github.io/healthcare-services-and-pharmacy-docs/](https://ajaykumbham.github.io/healthcare-services-and-pharmacy-docs/)
 
 ## Overview
 **Price A Med** is a modern, enterprise-grade platform for healthcare services and pharmacy management. Built as a team project for Evernorth Health Services, it delivers a seamless experience for patients, pharmacies, and administrators—combining robust security, modular architecture, and a user-centric design.
